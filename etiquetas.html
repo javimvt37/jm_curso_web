@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Útil para que funcione en un móvil -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Eqiqueta de compatibilidad con Microsoft "que  microsoft use la capa mas moderna" -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <title>Document</title>
+    
+    <!-- Ejemplo de como Css cambia los displays -->
+    <style>
+        p{display: inline;}
+        strong{
+            font-weight: 100;
+            color:red;
+            display: block;
+            }
+    </style>
+
+</head>
+<body>
+    <!-- Ejemplo de displays html -->
+    <p>Lorem ipsum <strong>dolor</strong> sit amet consectetur adipisicing elit. Illum officiis itaque rerum distinctio. Atque expedita incidunt voluptatibus corrupti, nam veritatis beatae similique aspernatur voluptate reiciendis sit neque dolorum reprehenderit. Veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis molestias, quod, expedita laudantium laborum doloribus exercitationem quibusdam eum ut vitae non voluptas porro neque repellat necessitatibus. Repellendus nemo alias et!</p>
+
+<!-- Clasificacion de eqiquetas estandar HTML
+        
+        Como indice de un libre que sirve para indexar el navegador 
+        Secciones (Sectioning)
+            body, h1..h6
+            Se inccorporan con html5 
+            section, header, footer, nav, article, aside
+        Agrupaciones(Grouping)
+            p, ul, ol
+        Textos(Text-Level semantics) - Edits
+        Embebidos(Embeded content) "Vienen de fuera y los traemos p ej las imagenes"
+        Links
+        Tablas(Tabular data)
+        Formularios(Form) - Elementos interactivos
+        Elementos de script(Scripting) 
+    -->
+    
+    <header>
+    <h1>Clasificacion  de las etiquetas HTML</h1>
+    <nav>Aqui ba el menú</nav>
+    </header>
+        <p>Esta página web recoge la clasificaion de eqiquetas sugeridas opr el éstandar HTML5.3</p>
+        <section>
+            <section>
+                <!-- Asi creamos un titulo "<h2>"" con aclariacion""<p>" -->
+        <header>
+            <h2>Secciones</h2>
+            <p> (Sectioning)</p>
+        </header>
+        <p>Se explica las etiquetas de seccionario como body, h1...h6, o las añadidas por HTML5: header, footer, section, nav, article, aside</p>
+        </section>    
+        <ul>
+            <li>Header</li>
+            <li>Footer</li>
+            <li>Section</li>
+            <li>Nav</li>
+            <li>Article</li>
+            <li>Aside</li>
+        </ul>
+        <section>
+                <h3>Header</h3>
+                <p>El elemento de HTML Header (&lt; 
+                    header&gt;) representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, pero también otros elementos como un logo, una sección que aglutine secciones de encabezados, una formulario de búsqueda o cosas parecidas.</p>
+            </section>
+            <section>
+                <h3>Footer</h3>
+                <p>El Elemento HTML Footer (&lt;footer&gt;) representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección (p.e, su ancestro mas cercano &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, &lt;section&gt;,&lt;blockquote&gt;, &lt;body&gt;, &lt;details&gt;, &lt;fieldset&gt;, &lt;figure&gt;, &lt;td&gt;). Un pie de página típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados.</p>
+            </section>
+            <section>
+                <h3>Section</h3>
+                <p>El elemento de HTML section (&lt;section&gt;) representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas.  Es, por lo tanto, una etiquéta semántica. Su funcionalidad principal es estructurar semánticamente un documento a la hora de ser representado por parte de un agente usuario. Por ejemplo, un agente de usuario que represente el documento en voz, podría exponer al usuario el índice de contenido por niveles para navegar rápidamente por las distintas partes.</p>
+            </section>
+            <section>
+                <h3>Nav</h3>
+                <p>Crea un menú de navegación.</p>
+            </section>
+            <section>
+                <!-- Son como extras, info del autor, publicidad, etc, suele estar a un lado de la pagina por eso se llama aside -->
+                <h3>Aside</h3>
+                <p>El Elemento HTML Aside (&lt;aside&gt;) representa una sección de una página que consiste en contenido que está tangencialmente relacionado con el contenido que le rodea, que podría ser considerado independiente de ese contenido. Estas secciones son a menudo representadas como barras laterales o como inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o enlaces a blogs relacionados.
+                    
+                </p>
+            </section>
+            <section>
+                <h3>Article</h3>
+                <p>El Elemento article de HTML (&lt;article&gt;) representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por ejemplo, en la sindicación. Podría ser un mensaje en un foro, un artículo de una revista o un periódico, una entrada de blog, un comentario de un usuario, un widget interactivo o gadget, o cualquier otro elemento independiente del contenido.
+
+                    </p>
+            </section>
+        </section>
+        <section>
+            <header>
+            <h2>Agrupaciones</h2>
+            <p>(Grouping)</p>
+            </header>
+            <p>Se explica las etiquetas de agrupacion como  p, ul, ol</p>
+        </section>
+        
+        <section>
+            <header>
+            <h2>Textos</h2>
+            <p>(Text-Level semantics) & Edits</p>
+            </header>
+            <p>Se explica de las etiquetas de textos y de la categoría edits</p>
+        </section>
+            <!-- Asi se explica mejor la division de la seccion -->
+        <section>
+            <header>
+            <h2>Otras etiquetas</h2>
+            <p>Aqui se habla del resto de las etiquetas</p>
+        </header>
+        </section>
+        <aside>
+            <header>
+        <h2>El estandar HTML 5.3</h2>
+        <p>En Diciembre de 2018, es el ultimo borrador de html producido por la W3C</p>
+    </header>
+        </aside>
+        <footer>
+            <p>Autor: Javier Molina - CFTIC</p>
+        </footer>
+
+    <!-- Esquema
+    1.Clasificación de las etiquetas
+        1.1 Secciones (Sectioning)
+            1.1.1 header (li)
+            1.1.2 footer
+
+
+
+        1.2 Agrupaciones (Grouping)
+        1.3 Textos (Text-Level semantics) - Edits
+        1.4 Otras etiquetas
+        [1.5 El estandar HTML 5.3] 
+    -->
+
+</body>
+</html>
