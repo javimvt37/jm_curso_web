@@ -9,7 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    
+    <!-- link para adjuntar hoja de reset -->
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/etiquetas.css">
     <title>Document</title>
     
     <!-- Ejemplo de como Css cambia los displays -->
@@ -47,11 +49,19 @@
     
     <header>
     <h1>Clasificacion  de las etiquetas HTML</h1>
-    <nav>Aqui ba el menú</nav>
+    <nav>
+        <ol>
+            <li><a href="#secciones">Secciones</a></li>
+            <li><a href="#agrupaciones">Agrupaciones</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#otros">Otros</a></li>
+            <li><a href="#estandar">Estándar Html5</a></li>
+        </ol>
+    </nav>
     </header>
         <p>Esta página web recoge la clasificaion de eqiquetas sugeridas opr el éstandar HTML5.3</p>
         <section>
-            <section>
+            <section id="secciones">
                 <!-- Asi creamos un titulo "<h2>"" con aclariacion""<p>" -->
         <header>
             <h2>Secciones</h2>
@@ -98,7 +108,7 @@
                     </p>
             </section>
         </section>
-        <section>
+        <section id="agrupaciones">
             <header>
             <h2>Agrupaciones</h2>
             <p>(Grouping)</p>
@@ -106,7 +116,7 @@
             <p>Se explica las etiquetas de agrupacion como  p, ul, ol</p>
         </section>
         
-        <section>
+        <section id="textos">
             <header>
             <h2>Textos</h2>
             <p>(Text-Level semantics) & Edits</p>
@@ -114,13 +124,13 @@
             <p>Se explica de las etiquetas de textos y de la categoría edits</p>
         </section>
             <!-- Asi se explica mejor la division de la seccion -->
-        <section>
+        <section id="otros">
             <header>
             <h2>Otras etiquetas</h2>
             <p>Aqui se habla del resto de las etiquetas</p>
         </header>
         </section>
-        <aside>
+        <aside id="estandar">
             <header>
         <h2>El estandar HTML 5.3</h2>
         <p>En Diciembre de 2018, es el ultimo borrador de html producido por la W3C</p>
